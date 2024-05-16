@@ -25,7 +25,7 @@ To implement Erosion and Dilation using Python and OpenCV.
  
 ## Program:
 
- Python
+```
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
@@ -58,7 +58,7 @@ plt.subplot(2,3,5)
 plt.imshow(edges,cmap='gray')
 plt.title('dilation')
 plt.axis('on')
-
+```
 
 ## Output:
 ![WhatsApp Image 2024-04-12 at 10 16 08_8299a7cd](https://github.com/manojMKJ/erosion--dilation/assets/120717614/0824ebb8-85fe-450c-aae3-bf31511a6f01)
